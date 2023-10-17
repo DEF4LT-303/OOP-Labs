@@ -36,7 +36,7 @@ public class Main {
                         String loginEmail = sc.nextLine();
                         System.out.println("Please enter password");
                         String loginPassword = sc.nextLine();
-                        Login login = new Login(con, loginEmail, loginPassword);
+                        Login login = new Login(con, statement, loginEmail, loginPassword);
                         break;
 
                     case 3:
